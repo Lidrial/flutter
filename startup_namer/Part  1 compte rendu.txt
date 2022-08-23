@@ -1,0 +1,22 @@
+Lors de la création de cette premiére app Flutter qui permet de générer une liste infinie de combinaisons de deux mots anglais aléatoires j'ai appris :
+
+	- qu'une app Flutter est construite uniquement a l'aide de differents widget enboité les uns dans les autres (StatefulWidget et StatelessWidget)
+
+	- la diffèrence entre un StatefulWidget (les valeurs et le contenu ne sont pas fixe et peuvent changer durant l'éxécution de l'app ex : contenu 
+	  de la liste) et un StalessWidget (les valeurs et le contenu sont fixe et ne changent pas durant l'éxécution ex : titre de l'app)
+
+	- à utiliser le debug mode, en testant l'app sur mon mobile android branché au pc avec une actualisation du rendu en temps réel (ce mode permet
+	  cela en échange de perfomances, animations pas fluide)
+
+	- à importer un package (ici un package de mots anglais "english_words: ^4.0.0")
+
+	- à créer une variable "de style" permettant de l'appliquée a chacune des combinaisons de mots generées ("_biggerfont" definissant la taille de
+	  de caractère a 18px)
+
+	- à créer une machine virtuelle android afin de pouvoir tester l'app sur diffèrents mobiles que celui que je possède
+
+	- à utiliser la commande "flutter run --release" (release mode) qui permet de lancer l'app sur le mobile avec les performances au maximum (animations fluide)
+	  en échange de ne plus pouvoir la modifier en temps réel comme avec le debug mode
+
+	- à utliser la commande "flutter run -d (nom du support)" afin de pouvoir choisir sur quel support tester l'app (web(chrome,edge),windows(native))
+	  à noter qu'il est possible de combiner cette dernière avec la précédente ("flutter run --release -d (nom du support)")
