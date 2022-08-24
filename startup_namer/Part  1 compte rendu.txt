@@ -46,4 +46,4 @@ Part2:
 
 	  - à utiliser le widget "Navigator" qui permet de gerer les différentes "route" de l'app
 
-	- à modifier le theme de mon app dont ses couleurs.
+	- à modifier le theme de mon app dont ses couleurs a l'aide de "themeData()"
