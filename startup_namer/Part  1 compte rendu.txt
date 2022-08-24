@@ -1,4 +1,5 @@
 Lors de la création de cette premiére app Flutter qui permet de générer une liste infinie de combinaisons de deux mots anglais aléatoires j'ai appris :
+Part1:
 
 	- qu'une app Flutter est construite uniquement a l'aide de differents widget enboité les uns dans les autres (StatefulWidget et StatelessWidget)
 
@@ -18,5 +19,29 @@ Lors de la création de cette premiére app Flutter qui permet de générer une 
 	- à utiliser la commande "flutter run --release" (release mode) qui permet de lancer l'app sur le mobile avec les performances au maximum (animations fluide)
 	  en échange de ne plus pouvoir la modifier en temps réel comme avec le debug mode
 
-	- à utliser la commande "flutter run -d (nom du support)" afin de pouvoir choisir sur quel support tester l'app (web(chrome,edge),windows(native))
+	- à utiliser la commande "flutter run -d (nom du support)" afin de pouvoir choisir sur quel support tester l'app (web(chrome,edge),windows(native))
 	  à noter qu'il est possible de combiner cette dernière avec la précédente ("flutter run --release -d (nom du support)")
+
+Part2:
+
+	- Qu'une liste permet d'y stocker plusieurs fois le meme éléments
+
+	- Qu'un set au contraire ne le permet pas
+
+	- à utiliser un set afin d'y stocker les combinaisons de mots que je veux y enregistrer
+
+	- à ajouter des iconnes intéractive (un coeur afin de cliquer dessus pour enregistrer une combinaisons)
+
+	- à ajouter une vérification qui permet de verifier si une combinaisons est enregistrée ou non (si elle n'est pas -> clic sur l'icone l'engeristre, si elle est enregistrée
+	  -> clic sur l'icone la supprime du set)
+
+	- à utiliser des événements (onTap) afin de rendre les icones intéractive au clic
+
+	- à implémenter une nouvelle page (route) qui permet d'afficher la liste des combinaisons enregistrées.
+	  Afin d'y arriver j'ai appris :
+
+	  - à utiliser le widget "scaffold" qui gère la stucture de l'affichage (ici naviquer entre les deux pages a l'aide d'un bouton dans le menu "AppBar")
+
+	  - à créer une fonction qui envoie les combinaisons enregistrée dans le set correspondant "_pushSaved()"
+
+	  - à utiliser le widget "Navigator" qui permet de gerer les différentes "route" de l'app
