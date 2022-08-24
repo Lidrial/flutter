@@ -45,3 +45,5 @@ Part2:
 	  - à créer une fonction qui envoie les combinaisons enregistrée dans le set correspondant "_pushSaved()"
 
 	  - à utiliser le widget "Navigator" qui permet de gerer les différentes "route" de l'app
+
+	- à modifier le theme de mon app dont ses couleurs.
